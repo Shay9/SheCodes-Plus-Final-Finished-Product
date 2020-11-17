@@ -1,0 +1,114 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+.weather-app {
+  max-width: 650px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.celcius-farenheit {
+  color: inherit;
+  text-decoration: none;
+  color: slategray;
+  border: 1px solid slategray;
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 20px;
+  background: White;
+}
+.celcius-farenheit:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.searchbar {
+  position: relative;
+  left: 350px;
+  bottom: 30px;
+}
+
+.search {
+  padding: 5px;
+}
+
+.temperature {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  left: 40px;
+  font-size: 70px;
+  font-weight: 50px;
+}
+
+.city {
+  position: relative;
+
+  bottom: 30px;
+}
+
+.icon {
+  position: relative;
+  bottom: 140px;
+  left: 170px;
+  padding: 10px;
+}
+
+.time {
+  position: relative;
+  left: 20px;
+}
+
+.day-time {
+  position: relative;
+  bottom: 20px;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.weather-elements {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  left: 350px;
+  bottom: 240px;
+  color: white;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+.basic-elements {
+  color: white;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  list-style: none;
+  font-size: 23px;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+.forecast {
+  color: white;
+  position: relative;
+  bottom: 200px;
+}
+
+.current-location-btn {
+  position: relative;
+  left: 490px;
+  top: -220px;
+}
+
+.footer {
+  position: relative;
+  top: -90px;
+  left: 625px;
+  color: #373a40;
+}
