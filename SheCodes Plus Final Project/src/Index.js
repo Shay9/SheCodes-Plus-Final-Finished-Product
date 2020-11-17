@@ -47,7 +47,7 @@ function showTemperature (response){
 function showForecast(response){
     let forecastElement = document.querySelector("#weather-forecast");
     let forecast = response.data.list[0];
-    console.log(forecast);
+    
 
     forecastElement.innerHTML =`
     <div class="col-2">
@@ -185,9 +185,8 @@ function showCelciusTemp (event){
 }
 
 function displayCityResults(response) {
-  console.log(response.data);
   document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#temperature").innerHTML = Math.round(response.data.main.temp);
+  document.querySelector("#temperature").innerHTML = `${Math.round(response.data.main.temp)}°`;
 }
 
 function currentLocation(event) {
